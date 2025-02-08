@@ -1,0 +1,40 @@
+ "dependencies": {
+    "express": "^4.21.2"
+  } 
+
+LETS UNDERSTAND ABOUT VERSION AND WHAT THAT DIGITS MEAN
+
+1ST PART "2": --> MINOR FIXES (OPTIONAL)
+optional update mtlb isko update nahi bi krenge to bi chal jayega. (koi type fix krdiya iss type ka update hota hai ye)
+
+2ST PART "21": --> RECOMMENDED BUG FIX (SECURITY FIX)
+ya phir koi chota mota feature add kiya gya hai. 
+4.18.5 -> 4.19.0   second vala change hoga to last vala zero hojaega 
+semi major update 
+
+3ST PART "4": --> MAJOR RELEASE, MAJOR / BREAKING UPDATE
+abi version 4 m code likha h but ye version 5 m likha hota to ho skta ki version 4 vala code chale hi na
+ho skta hai ki version 5 existing code ko break krdega 
+example express() ko EXPRESS() krdiya to express() will not bi identified
+#isko tb change krna chahiye jab hum scratch se koi project bana rahe hai 
+
+update krne se pehle dekhna hai kaunsa part update hua and kya features hai tbi update krna hai
+agr koi particular version install krna h express ka to ese type krna terminal m 
+npm install express@4.18.2
+
+^4.21.2
+"^" iss symbal ka meaning hai 4 ko fix rkhna and aake ka part change kr skte 
+install all RECOMMENDED and minor fixes automatically 
+
+~4.21.2
+equivalent to 4.21.x
+4.21.3 
+4.22.0 noooo
+"~" iska mtlb hota ki RECOMMENDED version bi change nhi krna sirf minor version change krna 
+
+4.21.2
+normal ka mtlb hota hai fixed version (apne aap change nahi hoga)
+
+version ki range bi de skte h (ex: 4.22.4 - 4.24.5)
+
+kbi "latest" use nhi krna version m coz sb version automaticallyc change krdeta hai 
