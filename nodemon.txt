@@ -1,0 +1,1 @@
+nodemon apne aap server ko restart krdeta h and br br restart krne ka need nahi pdta 

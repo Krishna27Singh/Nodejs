@@ -1,2 +1,19 @@
-1737734961049: GET /about New Request Recieved
-1737734965177: GET / New Request Recieved
+
+1737800834371: ::1 GET: /api/users
+1737800846065: ::1 GET: /api/users/1
+1737801735709: ::1 GET: /api/users
+1737801922758: ::1 GET: /api/users
+1737802705747: ::1 POST: /api/users/1
+1737802719853: ::1 POST: /api/users
+1737802992355: ::1 POST: /api/users
+1737803000072: ::1 POST: /api/users
+1737803000992: ::1 POST: /api/users
+1737803010216: ::1 POST: /api/users
+1737803541079: ::1 POST: /api/users
+1737803674573: ::1 POST: /api/users/30000
+1737803717132: ::1 POST: /api/users/30000
+1737803725897: ::1 POST: /api/users/30000
+1737803726769: ::1 POST: /api/users/30000
+1737803747014: ::1 POST: /api/users
+1737803756257: ::1 GET: /api/users/20000
+1737803771719: ::1 GET: /api/users/20000

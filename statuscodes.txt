@@ -1,0 +1,6 @@
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+visit this website to learn everything about status codes 
+
+
+"404 not found" mtlb client side se koi gadbad h(uss site ko reach krne ka try krre jo exist hi ni krti )
