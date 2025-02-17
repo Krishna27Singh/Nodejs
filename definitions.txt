@@ -1,0 +1,34 @@
+sequal(SQL) and no-sequal(NoSQL) databases:
+
+SQL and NoSQL databases are two major types of database management systems, each designed for different types of applications and data storage needs.
+
+Definition: SQL (Structured Query Language) databases are relational databases that store data in structured formats using tables with predefined schemas (columns and rows).
+
+Definition: NoSQL databases are non-relational databases designed for unstructured, semi-structured, or rapidly changing data, offering more flexibility in data storage.
+
+MongoDb
+#Strong support for Aggregation pipes
+#Works on BSON formats
+#Best for Node Applications
+
+Collection- Users
+#collection ke andr documents hote hai for example
+document1
+document2
+
+#some commands for MongoDb
+
+1) show dbs --> ye sare databases dikha deta hai
+2) use <db_name> agr koi database use krna hai (uske andr jana hai) so ye commands
+2) show collections --> uss database ke andr ke collection dikhata hai 
+3) db.coll.find()
+5) db.coll.insert() --> database ke andr kuch insert krne ke liye
+
+MongoDb ke sath connect krne ke liye hum mongoose package install krte hai 
+
+HOW DOES MONGOOSE WORK? 
+Schema - Define the Structure
+Then schema ko use krke model banate hai 
+Using this model we do CRUD operation (Create, Read, Update, Delete)
+
+mongosh command likhna h to activate mongoDb
